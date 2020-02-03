@@ -1,0 +1,10 @@
+this phase is very straightforward and doesnt need any guide.
+each function is named after what it does for example the function refresh(); will send a request to the server to get the list of messages in the channel and then it will print them.
+
+void makesocket(); 
+makesocket will make a socket and connect the client  to the server. if a socket does not exist it will terminate the program.
+
+
+int menustate
+menustate is a global integer. it has 3 values (1,2,3). each value represent the menu that is currently displayed.
+
